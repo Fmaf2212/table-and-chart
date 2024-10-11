@@ -1,0 +1,38 @@
+/* Personalizar el input de rango */
+input[type="range"] {
+    -webkit-appearance: none; /* Para Chrome, Safari y Opera */
+    appearance: none;
+    width: 100%; /* Asegúrate de que el rango ocupa el 100% de su contenedor */
+    background: transparent; /* Quita el fondo predeterminado */
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px; /* Ancho del pulgar */
+    height: 20px; /* Alto del pulgar */
+    background-color: #1ab69d; /* Color del pulgar */
+    border-radius: 50%; /* Hacer que el pulgar sea redondo */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el pulgar */
+  }
+  
+  input[type="range"]::-webkit-slider-runnable-track {
+    height: 6px; /* Altura de la pista */
+    background: #ccc; /* Color de la pista */
+    border-radius: 3px; /* Esquinas redondeadas de la pista */
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    width: 20px; /* Ancho del pulgar */
+    height: 20px; /* Alto del pulgar */
+    background-color: #1ab69d; /* Color del pulgar */
+    border-radius: 50%; /* Hacer que el pulgar sea redondo */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el pulgar */
+  }
+  
+  input[type="range"]::-moz-range-track {
+    height: 6px; /* Altura de la pista */
+    background: #ccc; /* Color de la pista */
+    border-radius: 3px; /* Esquinas redondeadas de la pista */
+  }
+  
