@@ -22,6 +22,7 @@ function App() {
     borderRadius: '8px',
     padding: '20px',
     boxShadow: '0 4px 20px rgba(0, 0, 0, 0.2)', // Sombra sutil
+    height: '1277px',
   };
   return (
     <div style={appStyle}>

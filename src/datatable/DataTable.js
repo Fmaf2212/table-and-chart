@@ -204,7 +204,7 @@ const DataTable = () => {
   };
 
   const handleHighlightSearch = () => {
-    const index = data.findIndex((row) =>
+    const index = filteredData.findIndex((row) =>
       Object.values(row).some((value) =>
         value.toString().toLowerCase().includes(highlightSearchTerm.toLowerCase())
       )
